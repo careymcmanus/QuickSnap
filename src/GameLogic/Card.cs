@@ -10,7 +10,7 @@ namespace CardGames.GameLogic
 {
     /// <summary>
     /// The Suit enumeration provides a list of all of the valid suit values
-    /// for the cards in the program.
+    /// for the cards in the program. Their are 4 suits
     /// </summary>
     public enum Suit
     {
@@ -23,7 +23,7 @@ namespace CardGames.GameLogic
     /// <summary>
     /// The Rank enumeration provides a list of all of the valid ranks (values)
     /// for the cards in the program. The ACE has value 1, ensuring that it is
-    /// easy to map cards to related numeric values.
+    /// easy to map cards to related numeric values. There are 13 cards
     /// </summary>
     public enum Rank
     {
